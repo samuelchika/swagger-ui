@@ -1,0 +1,27 @@
+{
+  "name": "swagger-ui",
+  "version": "1.0.0",
+  "description": "Building a base for backend API endpoint for frontend developers.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "swagger-ui",
+    "swagger-jsdoc"
+  ],
+  "author": "Samuel Ezeja",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1",
+    "sanitize-html": "^2.11.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
